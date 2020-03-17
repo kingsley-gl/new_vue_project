@@ -6,7 +6,15 @@
 
 <script>
 export default {
-  name: 'DashMenu'
+  name: 'DashMenu',
+  data() {
+    return {
+      menu: {
+        title: 'Home',
+        icon: 'home'
+      }
+    }
+  }
 }
 </script>
 
